@@ -19,3 +19,16 @@
 ***Day1Activity 4:***
 
 ![Forms](https://user-images.githubusercontent.com/78849193/108164264-76209c80-7116-11eb-9b8c-e9194d308cc2.PNG)
+
+
+
+***Day2Activity 1:***
+
+![audio video](https://user-images.githubusercontent.com/78849193/108191832-9ca3ff00-7139-11eb-8521-20c86d74710c.PNG)
+
+
+
+***Day2Activity 2:***
+
+![geo loc](https://user-images.githubusercontent.com/78849193/108192042-cceb9d80-7139-11eb-97fd-c8c6174a0d88.PNG)
+![geo2](https://user-images.githubusercontent.com/78849193/108192109-dc6ae680-7139-11eb-990c-39ee58b0ffc3.PNG)
