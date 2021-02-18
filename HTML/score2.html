@@ -1,0 +1,70 @@
+<html>
+<head><title>Match summary</title>
+</head>
+<style>
+.A{
+   height: 500px;
+  width: 700px;
+  background-color: yellow;
+}
+</style>
+<script>
+    function f()
+    {
+    var a= document.getElementById("a1").value;
+    var b=document.getElementById("b1").value;
+    var c= document.getElementById("T1").value;
+    var d=document.getElementById("T2").value;
+    if(a>b){
+        document.getElementById("dem").innerHTML=c;
+
+    }
+    else{
+        document.getElementById("dem").innerHTML=d;
+
+    }
+    
+    
+    }
+</script>
+<center>
+<body>
+    
+
+  
+<div class="A">
+    <h3>Match Summary</h3>
+<table>
+<tr>
+<td>Team A*<input type="text" id="T1" required></td>
+</tr>
+<tr>
+<td>Team B*<input type="text" id="T2" required></td>
+</tr>
+<tr>
+<td>Date*<input type="date" required></td>
+</tr>
+<tr>
+<td>Time*<input type="time" rquired></td>
+</tr>
+<tr>
+<td>Team A Score*<input type="text" id="a1" required></td>
+</tr>
+<tr>
+<td>Team B Score*<input type="text"  id="b1" required</td>
+</tr>
+<tr><td><button onclick="f()">Save</button>
+</tr>
+
+<tr>
+<td>Winning Team</td>
+</tr>
+<tr>
+<td><p id="dem"></p></td>
+</tr>
+</table>
+<div>
+</center>
+</body>
+</html>
+
