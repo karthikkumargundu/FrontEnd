@@ -32,3 +32,11 @@
 
 ![geo loc](https://user-images.githubusercontent.com/78849193/108192042-cceb9d80-7139-11eb-97fd-c8c6174a0d88.PNG)
 ![geo2](https://user-images.githubusercontent.com/78849193/108192109-dc6ae680-7139-11eb-990c-39ee58b0ffc3.PNG)
+
+
+
+**JAVASCRIPT**
+
+***Day3Activity 1:***
+
+![SCORE](https://user-images.githubusercontent.com/78849193/108328159-4941b780-71f2-11eb-9a7d-f876b3540145.PNG)
