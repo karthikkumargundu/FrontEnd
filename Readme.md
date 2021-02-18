@@ -40,3 +40,11 @@
 ***Day3Activity 1:***
 
 ![SCORE](https://user-images.githubusercontent.com/78849193/108328159-4941b780-71f2-11eb-9a7d-f876b3540145.PNG)
+
+
+
+***Day3Activity 2:***
+
+![scorce2](https://user-images.githubusercontent.com/78849193/108337017-ac374c80-71fa-11eb-98a7-4568ab27acfc.PNG)
+
+
