@@ -1,130 +1,94 @@
-<!Doctype html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="file:///C:/Users/Training/Documents/GitHub/WEB-DEVELOPMENT/HTML/form.css">
-
+<title>Semantic Tag </title>
 <style>
-.header,.footer{
-	text-align:center;
-	padding: 20px;
-	margin: 5px 600px 0 600px;
-	background-color:#87CEEB;
-	border: solid;
-	
-}
-.f{
-	text-align:center;
-	margin: 5px 600px 0 600px;
-	background-color:#87CEEB;
-	border:solid;
-	
-}
-
-.t {
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
-</head>
-<body>
-
-<div class = "header">
-<h1>Player Details</h1>
-</div>
-
-<div class = "f">
- <form>
-	<table class = "t" border='0' width='480px' cellpadding='0' cellspacing='0' align='center'>
-		<tr> <td>&nbsp;</td> </tr>
-		<tr>
-		<td align='center' style="color: #708090;"><i>Name<superscript style="color: red;">*</superscript></i></td>
-		<td style = "text-align: center;"><input type="text" id="fname" name="fname" placeholder="Enter your name" style="width: 200px;" autofocus><br></td>
-		</tr>
-		<tr> <td>&nbsp;</td> </tr>
-		
-		<tr>
-		<td align='center' style="color: #708090;"><i>DOB<superscript style="color: red;">*</superscript></i></td>
-		<td><input type="text" id="fdate" name="fdate" pattern=\d{1,2}/\d{1,2}/\d{4 placeholder = "DD/MM/YYYY" style="width: 200px;"><br></td>
-		</tr>
-		<tr> <td>&nbsp;</td> </tr>
-
-		<tr>
-		<td style="color: #708090;"><i>Age<superscript style="color: red;">*</superscript></i></td>
-		<td><input type="text" id="fage" name="fage" placeholder="Enter your age" style="width: 200px;"><br></td>
-		</tr>
-		<tr> <td>&nbsp;</td> </tr>
-
-		<tr>
-		<td style="color: #708090;"><i>Email Id<superscript style="color: red;">*</superscript></i></td>
-		<td><input type="email" id="femail" name="femail" placeholder = "abc123@xyz.com" style="width: 200px;"><br></td>
-		</tr>
-		<tr> <td>&nbsp;</td> </tr>
-
-		<tr>
-		<td style="color: #708090;"><i>Country<superscript style="color: red;">*</superscript></i></td>
-		<td><select name="fcountry" id="fcountry" style="width: 205px;height: 22px;">
-				<option value="India">India</option>
-				<option value="America">America</option>
-				<option value="Japan">Japan</option>
-				<option value="UAE">UAE</option>
-			</select><br>
-        </td>
-		</tr>
-		<tr> <td>&nbsp;</td> </tr>
-
-		<tr>
-		<td style="color: #708090;"><i>Skill<superscript style="color: red;">*</superscript></i></td>
-		<td><input type="checkbox" id="Batting" name="Batting" value="Batting">Batting
-			<input type="checkbox" id="Bowling" name="Bowling" value="Bowling">Bowling
-		</td>
-		</tr>
-		<tr> <td>&nbsp;</td> </tr>
-
-		<td style="color: #708090;"><i>Bat Style<superscript style="color: red;">*</superscript></i></td>
-		<td><input type="radio" id="Batstyle" name="Batstyle" value="Batstyle">Left Handed
-			<input type="radio" id="Bowlstyle" name="Bowlstyle" value="Bowlstyle">Right Handed
-		</td>
-		</tr>
-		<tr> <td>&nbsp;</td> </tr>
-
-		<td style="color: #708090;"><i>Bowl Style<superscript style="color: red;">*</superscript></i></td>
-		<td><input type="radio" id="Batstyle" name="Batstyle" value="Batstyle">Left Handed
-			<input type="radio" id="Bowlstyle" name="Bowlstyle" value="Bowlstyle">Right Handed
-		</td>
-		</tr>
-		<tr> <td>&nbsp;</td> </tr>
-
-		<tr>
-			<td align='center' style="color: #708090;" ><i>Matches<superscript style="color: red;">*</superscript></i></td>
-			<td><input type="text" id="fmatches" name="fmatches" placeholder = "matches Played" style="width: 200px;"><br></td>
-		</tr>
-		<tr> <td>&nbsp;</td> </tr>
-
-		<tr>
-			<td align='center' style="color: #708090;"><i>Runs<superscript style="color: red;">*</superscript></i></td>
-			<td><input type="text" id="fruns" name="fruns" placeholder = "Total Runs Scored" style="width: 200px;"><br></td>
-		</tr>
-		<tr> <td>&nbsp;</td> </tr>
-
-		<tr>
-			<td align='center' style="color: #708090;"><i>Wickets<i><superscript style="color: red;">*</superscript></i></td>
-			<td><input type="text" id="fwickets" name="fwickets" placeholder = "Wickets" style="width: 200px;"><br></td>
-		</tr>
-		<tr> <td>&nbsp;</td> </tr>
-
-		<tr>
-			<td style="color: #708090;"><i>Achievements</i></td>
-			<td align='center'><textarea id="Achievements" name="Achievements" rows="4" cols="25" placeholder="Your achievements in cricket"></textarea></td>
-		</tr>
-	</table>
-  </form>
-</div>
-
-<div class = "footer">
-	
-	<button style="width: 100px; height: 30px;" >Submit</button>
-	<input type="reset" value="Reset" style="width: 100px; height: 30px;">
+.myDiv {
+  border: 2px outset black;
+  background-color: rgb(19, 182, 247);
   
-</body>
-</html>
+  text-align: center;
+  font-size:18px;  
+}
+
+.myDiv1
+{
+    border: 2px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
+  background-color: rgb(171, 231, 247);
+  
+  height:550px;
+    width:100%;
+}
+
+.myDiv2 {
+  border: 2px outset black;
+  background-color: white;
+  
+  
+  font-size:18px;  
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
+  background-color: rgb(171, 231, 247);
+  height:60px;
+    width:100%;
+  
+
+    </style>
+
+    <body style="background-color: rgba(252, 253, 253, 0.924);width:50%;vertical-align: middle;" class=mybody>
+        <div class="myDiv">
+            <pre style="color:#fffeff";>Player Details</pre>
+        </div>
+
+        <div class="myDiv1">
+            <pre style="color:#5e5a5e";font-size: medium;">
+            <form>
+                <label for="name"> Name*</label>         <input type="text" id="name" name="name"  placeholder="Enter your name">
+
+                <label for="birthday">DOB</label>            <input type="date" id="birthday" name="birthday"  placeholder="DD/MM/YY">
+
+                <label for="age"> Age*</label>          <input type="text" id="age" name="age"  placeholder="Enter your age">
+
+                <label for="email">Email id* </label>     <input type="email" id="email" name="email"  placeholder="abcd3478@gmail.com">
+            
+            
+                <label for="browser">country*</label>       <input list="browsers" name="browser" id="browser"><datalist id="browsers"><option value="India"> <option value="USA"><option value="UK"><option value="australia"><option value="dubai"></datalist>
+
+
+                <label for="skills">skills*</label>        <input type="checkbox" id="batting" name="batting" value="batting"><label for="batting"> batting</label>      <input type="checkbox" id="bolwing" name="bolwing" value="bowling"><label for="bowling"> bowling</label><br>
+            
+                <label for="Bat Style">Bat Style</label>      <input type="radio" id="Right Handed" name="Right Handed" value="Right Handed"><label for="Right Handed"> batting</label>      <input type="radio" id="Left Handed" name="Left Handed" value="Left Handed"><label for="Left Handed"> Left Handed</label><br>
+
+                <label for="Bowling Style">Bowling Style</label>  <input type="radio" id="Right Handed" name="Right Handed" value="Right Handed"><label for="Right Handed"> batting</label>      <input type="radio" id="Left Handed" name="Left Handed" value="Left Handed"><label for="Left Handed"> Left Handed</label><br>  
+            
+                <label for="Matches">Matches*</label>        <input type="number" id="Matches" name="Matches" min="0" max="10000"  placeholder="Matches Played"> 
+
+                <label for="Runs">Runs*</label>           <input type="number" id="Runs" name="Runs" min="0" max="10000"  placeholder="Total Runs Scored">
+
+                <label for="Wickets">Wickets*</label>        <input type="number" id="Wickets" name="Wickets" min="0" max="10000"  placeholder="Wickets">
+
+            <label for="Achievements"> Achievements*</label>      <input type="text" id="Achievements" name="Achievements" placeholder="Your achievements in cricket">
+
+            </form>
+              
+            </pre>
+            
+            </ul>
+     </div>
+
+     <div class="myDiv2">
+            <pre style="color:#FF66FF";font-size: medium;">
+                        <input type="submit" value="Submit">   <input type="reset" value="Reset">
+            </pre>
+            
+            </ul>
+     
+
+    </body>
+    </head>
+    </html>
